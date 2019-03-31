@@ -1,25 +1,16 @@
-body {
-  background-color: #e6e6fa;
-  color: #191970;
-  font-family: Arial, Verdana, SansSerif;
-  background-attachment: scroll;
-  background-color: #cab2ff;
-  background-image: url("background.jpg");
-  background-position: center;
-  background-repeat: inherit;
-  background-clip: border-box;
-  background-origin: border-box;
-  background-size: contain;
-  padding: 80px;
-  min-width: 800px;
-  max-width: 2050px;
-  margin-right: auto;
+#wrapper {
+  width: 80%;
   margin-left: auto;
+  margin-right: auto;
+  background-color: #cbcbf1;
+  opacity: 0.95;
+  min-width: 960px;
+  max-width: 1200px;
 }
+
 #contain {
   background-color: #f3f6fa;
   padding: 20px;
-  width: 90%;
   min-width: 850px;
   max-width: 2250px;
   margin-right: auto;
@@ -29,7 +20,6 @@ h1 {
   background-color: #191970;
   color: #e6e6fa;
   line-height: 200%;
-  opacity: 0.8;
   border: 3px ridge #aeaed4;
   border-radius: 15px;
   padding-left: 150px;
@@ -46,12 +36,64 @@ h2 {
 a {
   text-decoration: none;
 }
-footer {
-  background-color: #aeaed4;
+body {
+  font-family: Arial, Verdana, SansSerif;
+  background-color: #e6e6fa;
   color: #191970;
-  opacity: 0.8;
+  background-attachment: scroll;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: inherit;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: contain;
+  padding: 80px;
+  min-width: 800px;
+  max-width: 2050px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  background-color: #869dc7;
+  color: #00005d;
+  font-size: 150%;
+  padding: 5% 8% 5% 8%;
+  background-image: url(background.jpg);
+  background-repeat: repeat-x;
+}
+nav {
+  float: left;
+  width: 90px;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+nav a:link {
+  color: #3a9dff;
+}
+nav a:visited {
+  color: #2e2e5d;
+}
+nav a:hover {
+  color: #000066;
 }
 main {
-  position: inherit;
+  padding: 10px;
+  display: block;
   background-color: lavender;
+  margin-left: 100px;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color: #ccccff;
+  clear: both;
 }
